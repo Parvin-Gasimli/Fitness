@@ -4,8 +4,15 @@
     display: flex;
     padding: 24px 13px 1px;
     img {
+      animation-name:animation  ;
+      animation-duration: .9s;
+     animation-iteration-count: infinite;
       width: 32px;
       height: 32px;
+      &:hover{ animation-duration: 2s;
+        animation-iteration-count: 0;
+
+      }
     }
     h2 {
       color: $colorblack;
@@ -54,6 +61,17 @@
       }
     }
   }
+  @keyframes animation {
+
+
+    0%   {transform: scale(1.2)}
+    27%  {transform: rotate(90deg);}
+    56%  {transform: rotate(180deg);}
+    80%{transform: rotate(2700deg);}
+    100% {transform: rotate(360deg);}
+  
+  }
+  
 }
 #headmain {
   padding-top: 100px;
@@ -258,9 +276,9 @@
   }
 }
 #train {
-    .trainer{
-        padding-top: 170px;
-    }
+  .trainer {
+    padding-top: 170px;
+  }
   .intro {
     h1 {
       width: 448px;
@@ -282,7 +300,6 @@
       font-size: 17px;
       line-height: 32px;
       letter-spacing: -1%;
-
     }
   }
   .start {
@@ -308,4 +325,179 @@
       letter-spacing: 1.2px;
     }
   }
+  .tradeImg {
+    width: 560.54px;
+    height: 673.41px;
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+      padding-left: 65px;
+      margin-left: 70px;
+    }
+  }
+  .imgRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+#bookClass {
+  padding-top: 160px;
+  .bookImg {
+    width: 624px;
+    height: 748px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .newcol {
+    background: #dcd9d938;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.1);
+    border-radius: 20px;
+
+    width: 544px;
+    height: 748px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 49px;
+    .bookData {
+      .head {
+        h1 {
+          width: 448px;
+          height: 56px;
+          font-family: $font-family;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 48px;
+          line-height: 56px;
+          color: $colorblack;
+
+          letter-spacing: -0.02em;
+        }
+        p {
+          width: 448px;
+          height: 48px;
+          font-family: $font-family;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          margin: 24px 0px;
+          color: $colorGray;
+        }
+      }
+    }
+    .difretnBody {
+      border: 1px solid lightgray;
+      border-radius: 10px;
+    }
+    .body {
+      .databody {
+        padding-bottom: 50px;
+        align-items: center;
+        display: flex;
+        .dataImg {
+          margin-right: 22px;
+          margin-top: 12px;
+        }
+        .dataText {
+          h2 {
+            width: 162px;
+            height: 24px;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: $colorblack;
+          }
+          p {
+            width: 257px;
+            height: 48px;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 4px 0px;
+            color: $colorGray;
+          }
+        }
+      }
+    }
+  }
+}
+#Fitnessexperience {
+  padding-top: 160px;
+  .exhead {
+    h1 {
+      font-family: $font-family;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 12px;
+      text-transform: uppercase;
+      color: $colorGray;
+    }
+    h2 {
+      display: inline-block;
+      width: 621px;
+      height: 112px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $colorblack;
+    }
+  }
+  .bodycontainer {
+    padding-top: 70px;
+ 
+ 
+    .experienceData {
+      width: 262px;
+      height: 232px;
+      &:hover  .experienceIcon img {
+        transform: scale(1.2);
+        
+    }
+ 
+      .experienceIcon {
+        img {
+          transition: .4s linear;
+          transform: scale(1);
+       
+      }
+     
+    }
+    p {
+      width: 262px;
+      height: 48px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: $colorblack;
+      margin: 32px 0px;
+    }
+    span {
+      width: 262px;
+      height: 72px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: $colorGray;
+      margin: 32px 0px;
+    }
+  }
+}
+
 }

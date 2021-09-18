@@ -10,8 +10,21 @@
 }
 
 #header .logo img {
+  -webkit-animation-name: animation;
+          animation-name: animation;
+  -webkit-animation-duration: .9s;
+          animation-duration: .9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   width: 32px;
   height: 32px;
+}
+
+#header .logo img:hover {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 0;
+          animation-iteration-count: 0;
 }
 
 #header .logo h2 {
@@ -66,6 +79,52 @@
 
 #header .FormList .headicon img {
   margin-left: 60px;
+}
+
+@-webkit-keyframes animation {
+  0% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  27% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  56% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(2700deg);
+            transform: rotate(2700deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animation {
+  0% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  27% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  56% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(2700deg);
+            transform: rotate(2700deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 #headmain {
@@ -354,6 +413,207 @@
   color: #23262F;
   border: 2px solid #777E91;
   letter-spacing: 1.2px;
+}
+
+#train .tradeImg {
+  width: 560.54px;
+  height: 673.41px;
+}
+
+#train .tradeImg img {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 65px;
+  margin-left: 70px;
+}
+
+#train .imgRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bookClass {
+  padding-top: 160px;
+}
+
+#bookClass .bookImg {
+  width: 624px;
+  height: 748px;
+}
+
+#bookClass .bookImg img {
+  max-width: 100%;
+}
+
+#bookClass .newcol {
+  background: #dcd9d938;
+  -webkit-box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.1);
+          box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.1);
+  border-radius: 20px;
+  width: 544px;
+  height: 748px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 49px;
+}
+
+#bookClass .newcol .bookData .head h1 {
+  width: 448px;
+  height: 56px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #23262F;
+  letter-spacing: -0.02em;
+}
+
+#bookClass .newcol .bookData .head p {
+  width: 448px;
+  height: 48px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 24px 0px;
+  color: #777E91;
+}
+
+#bookClass .newcol .difretnBody {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+#bookClass .newcol .body .databody {
+  padding-bottom: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bookClass .newcol .body .databody .dataImg {
+  margin-right: 22px;
+  margin-top: 12px;
+}
+
+#bookClass .newcol .body .databody .dataText h2 {
+  width: 162px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262F;
+}
+
+#bookClass .newcol .body .databody .dataText p {
+  width: 257px;
+  height: 48px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 4px 0px;
+  color: #777E91;
+}
+
+#Fitnessexperience {
+  padding-top: 160px;
+}
+
+#Fitnessexperience .exhead h1 {
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #777E91;
+}
+
+#Fitnessexperience .exhead h2 {
+  display: inline-block;
+  width: 621px;
+  height: 112px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #23262F;
+}
+
+#Fitnessexperience .bodycontainer {
+  padding-top: 70px;
+}
+
+#Fitnessexperience .bodycontainer .experienceData {
+  width: 262px;
+  height: 232px;
+}
+
+#Fitnessexperience .bodycontainer .experienceData:hover .experienceIcon img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Fitnessexperience .bodycontainer .experienceData .experienceIcon img {
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#Fitnessexperience .bodycontainer .experienceData p {
+  width: 262px;
+  height: 48px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262F;
+  margin: 32px 0px;
+}
+
+#Fitnessexperience .bodycontainer .experienceData span {
+  width: 262px;
+  height: 72px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777E91;
+  margin: 32px 0px;
 }
 
 * {
