@@ -1,0 +1,365 @@
+#header {
+  padding-bottom: 40px;
+}
+
+#header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 13px 1px;
+}
+
+#header .logo img {
+  width: 32px;
+  height: 32px;
+}
+
+#header .logo h2 {
+  color: #23262F;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 20px;
+}
+
+#header .FormList {
+  padding: 26px 13px 1px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .FormList .class img {
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+  line-height: 13px;
+  width: 13px;
+  height: 13px;
+}
+
+#header .FormList .class img:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#header .FormList li img {
+  margin-left: -10px;
+}
+
+#header .FormList li a {
+  padding: 11px 26px 13px 23px;
+  text-decoration: none;
+  color: #777E91;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-break: 16px;
+}
+
+#header .FormList .headicon img {
+  margin-left: 60px;
+}
+
+#headmain {
+  padding-top: 100px;
+}
+
+#headmain .text h1 {
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  width: 545px;
+  height: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#headmain .text h2 {
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  width: 545px;
+  height: 192px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  font-style: normal;
+  letter-spacing: -2%;
+}
+
+#headmain .text h4 {
+  width: 448px;
+  height: 48px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  color: #777E91;
+}
+
+#headmain .desc {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#headmain .desc button {
+  border: none;
+  margin-right: 50px;
+  width: 155px;
+  height: 48px;
+  border-radius: 90px;
+  padding: 16px, 24px, 16px, 24px;
+}
+
+#headmain .desc .download {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+  background-color: #FF592C;
+  color: #FCFCFD;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+#headmain .desc .download:hover {
+  background-color: #FCFCFD;
+  color: #23262F;
+  border: 2px solid #777E91;
+  letter-spacing: 1.2px;
+}
+
+#headmain .desc .Book {
+  border: 2px solid #777E91;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+  background-color: #FCFCFD;
+  color: #23262F;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+#headmain .desc .Book:hover {
+  background-color: #FF592C;
+  color: #FCFCFD;
+  letter-spacing: 1.2px;
+  border: none;
+}
+
+#headmain .toTop {
+  cursor: pointer;
+}
+
+#headmain .toTop img {
+  width: 170px;
+  height: 40px;
+  margin-top: 100px;
+}
+
+#headmain .right {
+  width: 512.68px;
+  height: 590.85px;
+}
+
+#headmain .right img {
+  max-width: 100%;
+  margin: -99px -20px 0px 15px;
+}
+
+#sliders h4 {
+  padding-bottom: 50px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#sliders .sliderImg {
+  cursor: pointer;
+}
+
+#sliders .sliderImg img {
+  width: 167px;
+  height: 64px;
+  -webkit-filter: contrast(0);
+          filter: contrast(0);
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+#sliders .sliderImg img:hover {
+  -webkit-filter: contrast(1);
+          filter: contrast(1);
+}
+
+#work {
+  padding-top: 156px;
+}
+
+#work .workheading h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  text-align: center;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+}
+
+#work .workheading h2 {
+  width: 400px;
+  height: 25px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: 16px;
+  line-height: 24px;
+  text-align: center;
+  display: -webkit-inline-box;
+  font-size: 16px;
+}
+
+#work .step {
+  padding-top: 75px;
+}
+
+#work .step .connect {
+  padding-left: 40px;
+}
+
+#work .step .icon {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+#work .step .icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#work .datas {
+  padding-top: 120px;
+}
+
+#work .datas .headText h1 {
+  width: 256px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #23262F;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+#work .datas .headText h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#work .datas .headText p {
+  border-radius: 14px;
+  padding-top: 15px;
+  width: 256px;
+  height: 88px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#work .datas .headText p:hover {
+  background-color: #23262F;
+  color: #FCFCFD;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#train .trainer {
+  padding-top: 170px;
+}
+
+#train .intro h1 {
+  width: 448px;
+  height: 128px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 54px;
+  letter-spacing: -2%;
+  color: #23262F;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+}
+
+#train .intro h4 {
+  width: 448px;
+  height: 128px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -1%;
+}
+
+#train .start {
+  border: none;
+  margin-right: 50px;
+  width: 145px;
+  height: 44px;
+  border-radius: 90px;
+  padding: 16px, 24px, 16px, 24px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+  background-color: #FF592C;
+  color: #FCFCFD;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+#train .start:hover {
+  background-color: #FCFCFD;
+  color: #23262F;
+  border: 2px solid #777E91;
+  letter-spacing: 1.2px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */

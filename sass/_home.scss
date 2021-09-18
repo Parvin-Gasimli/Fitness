@@ -1,0 +1,311 @@
+#header {
+  padding-bottom: 40px;
+  .logo {
+    display: flex;
+    padding: 24px 13px 1px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+    h2 {
+      color: $colorblack;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 20px;
+    }
+  }
+  .FormList {
+    padding: 26px 13px 1px;
+    list-style: none;
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    .class {
+      img {
+        transition: 0.4s linear;
+        line-height: 13px;
+        width: 13px;
+        height: 13px;
+        &:hover {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    li {
+      img {
+        margin-left: -10px;
+      }
+      a {
+        padding: 11px 26px 13px 23px;
+        text-decoration: none;
+        color: $colorGray;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 14px;
+
+        line-break: 16px;
+      }
+    }
+    .headicon {
+      img {
+        margin-left: 60px;
+      }
+    }
+  }
+}
+#headmain {
+  padding-top: 100px;
+  .text {
+    h1 {
+      font-family: $font-family;
+      width: 545px;
+      height: 16px;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 16px;
+    }
+    h2 {
+      font-family: $font-family;
+      width: 545px;
+      height: 192px;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 64px;
+      font-style: normal;
+      letter-spacing: -2%;
+    }
+    h4 {
+      width: 448px;
+      height: 48px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: $font-family;
+      color: $colorGray;
+    }
+  }
+  .desc {
+    padding-top: 40px;
+    display: flex;
+    button {
+      border: none;
+      margin-right: 50px;
+      width: 155px;
+      height: 48px;
+      border-radius: 90px;
+
+      padding: 16px, 24px, 16px, 24px;
+    }
+    .download {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;
+      text-align: center;
+      line-height: 16px;
+      background-color: $primarycolor;
+      color: $colorWhite;
+      transition: 0.4s linear;
+      &:hover {
+        background-color: $colorWhite;
+        color: $colorblack;
+        border: 2px solid $colorGray;
+        letter-spacing: 1.2px;
+      }
+    }
+    .Book {
+      border: 2px solid $colorGray;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;
+      text-align: center;
+      line-height: 16px;
+      background-color: $colorWhite;
+      color: $colorblack;
+      transition: 0.4s linear;
+      &:hover {
+        background-color: $primarycolor;
+        color: $colorWhite;
+        letter-spacing: 1.2px;
+        border: none;
+      }
+    }
+  }
+  .toTop {
+    cursor: pointer;
+    img {
+      width: 170px;
+      height: 40px;
+      margin-top: 100px;
+    }
+  }
+  .right {
+    width: 512.68px;
+
+    height: 590.85px;
+    img {
+      max-width: 100%;
+      margin: -99px -20px 0px 15px;
+    }
+  }
+}
+#sliders {
+  h4 {
+    padding-bottom: 50px;
+    height: 24px;
+    font-family: $font-family;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .sliderImg {
+    cursor: pointer;
+    img {
+      width: 167px;
+      height: 64px;
+      filter: contrast(0);
+      transition: 0.3s linear;
+
+      &:hover {
+        filter: contrast(1);
+      }
+    }
+  }
+}
+#work {
+  padding-top: 156px;
+  .workheading {
+    h1 {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -2%;
+      text-align: center;
+      font-family: $font-family;
+    }
+    h2 {
+      width: 400px;
+      height: 25px;
+      font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-style: 16px;
+      line-height: 24px;
+      text-align: center;
+      display: -webkit-inline-box;
+      font-size: 16px;
+    }
+  }
+  .step {
+    padding-top: 75px;
+    .connect {
+      padding-left: 40px;
+    }
+    .icon {
+      transform: scale(1);
+      transition: 0.4s linear;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  .datas {
+    padding-top: 120px;
+    .headText {
+      h1 {
+        width: 256px;
+        height: 24px;
+        font-family: $font-family;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $colorblack;
+        transform: scale(1);
+        transition: 0.4s linear;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      p {
+        border-radius: 14px;
+        padding-top: 15px;
+        width: 256px;
+        height: 88px;
+        font-family: $font-family;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        transition: 0.4s linear;
+        transform: scale(1);
+        &:hover {
+          background-color: $colorblack;
+          color: $colorWhite;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+#train {
+    .trainer{
+        padding-top: 170px;
+    }
+  .intro {
+    h1 {
+      width: 448px;
+      height: 128px;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 55px;
+      line-height: 54px;
+      letter-spacing: -2%;
+      color: $colorblack;
+      font-family: $font-family;
+    }
+    h4 {
+      width: 448px;
+      height: 128px;
+      font-family: $font-family;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 32px;
+      letter-spacing: -1%;
+
+    }
+  }
+  .start {
+    border: none;
+    margin-right: 50px;
+    width: 145px;
+    height: 44px;
+    border-radius: 90px;
+
+    padding: 16px, 24px, 16px, 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    background-color: $primarycolor;
+    color: $colorWhite;
+    transition: 0.4s linear;
+    &:hover {
+      background-color: $colorWhite;
+      color: $colorblack;
+      border: 2px solid $colorGray;
+      letter-spacing: 1.2px;
+    }
+  }
+}
