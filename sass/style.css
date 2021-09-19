@@ -12,8 +12,8 @@
 #header .logo img {
   -webkit-animation-name: animation;
           animation-name: animation;
-  -webkit-animation-duration: .9s;
-          animation-duration: .9s;
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   width: 32px;
@@ -586,8 +586,8 @@
 }
 
 #Fitnessexperience .bodycontainer .experienceData .experienceIcon img {
-  -webkit-transition: .4s linear;
-  transition: .4s linear;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -614,6 +614,257 @@
   line-height: 24px;
   color: #777E91;
   margin: 32px 0px;
+}
+
+#simpleTrain {
+  padding-top: 160px;
+}
+
+#simpleTrain .prohead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#simpleTrain .prohead p {
+  width: 100px;
+  height: 16px;
+  margin: 23px 0px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #777E91;
+  text-transform: uppercase;
+}
+
+#simpleTrain .simpleText h1 {
+  width: 419px;
+  height: 112px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #23262F;
+  letter-spacing: -0.02em;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+#simpleTrain .simpleText p {
+  width: 419px;
+  height: 48px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777E91;
+}
+
+#SimpleData .smpdata {
+  padding-top: 100px;
+}
+
+#SimpleData .smpdata .simpledata1 h1 {
+  width: 262px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262F;
+  margin: 16px 0px;
+}
+
+#SimpleData .smpdata .simpledata1 p {
+  width: 262px;
+  height: 72px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777E91;
+  margin: 16px 0px;
+}
+
+#SimpleData .smpdata .imgdata {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#SimpleData .smpdata .imgdata .simpleImg {
+  width: 548px;
+  height: 650px;
+  background: #e6e8ec;
+  border-radius: 24px;
+}
+
+#SimpleData .smpdata .imgdata .simpleImg img {
+  max-width: 100%;
+}
+
+#MeetSimple {
+  padding-top: 130px;
+}
+
+#MeetSimple .MeetText {
+  display: inline-block;
+}
+
+#MeetSimple .MeetText h1 {
+  width: 544px;
+  height: 56px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #23262F;
+  margin: 20px 0px;
+  display: inline-block;
+}
+
+#MeetSimple .MeetText p {
+  width: 544px;
+  height: 72px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #777E91;
+  margin: 20px 0px;
+}
+
+#MeetSimple .dataList {
+  padding-top: 40px;
+}
+
+#MeetSimple .dataList ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#MeetSimple .dataList ul .dsc {
+  background-color: #454545;
+  color: white;
+  font-weight: bold;
+  width: 86px;
+  height: 34px;
+  border: 1px solid transparent;
+  line-height: 27px;
+  border-radius: 52px;
+}
+
+#MeetSimple .dataList ul li {
+  width: 135px;
+  height: 34px;
+  line-height: 27px;
+}
+
+#MeetSimple .dataList ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #777E91;
+  margin-right: 13px;
+}
+
+#MeetSimple .fitnesdata {
+  width: 156px;
+  height: 241.12px;
+}
+
+#MeetSimple .fitnesdata:hover .imgbody h2 {
+  color: green;
+}
+
+#MeetSimple .fitnesdata img {
+  border: 1px solid transparent;
+  border-radius: 22px;
+  background: #dbdbdb;
+  max-width: 100%;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#MeetSimple .fitnesdata img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+#MeetSimple .imgbody h2 {
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  padding-top: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#MeetSimple .imgbody p {
+  padding-top: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  color: #777E91;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fitnescontainer {
+  padding-top: 60px;
+}
+
+.size {
+  padding-bottom: 70px;
 }
 
 * {

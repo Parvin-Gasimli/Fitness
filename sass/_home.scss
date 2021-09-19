@@ -4,14 +4,14 @@
     display: flex;
     padding: 24px 13px 1px;
     img {
-      animation-name:animation  ;
-      animation-duration: .9s;
-     animation-iteration-count: infinite;
+      animation-name: animation;
+      animation-duration: 0.9s;
+      animation-iteration-count: infinite;
       width: 32px;
       height: 32px;
-      &:hover{ animation-duration: 2s;
+      &:hover {
+        animation-duration: 2s;
         animation-iteration-count: 0;
-
       }
     }
     h2 {
@@ -62,16 +62,22 @@
     }
   }
   @keyframes animation {
-
-
-    0%   {transform: scale(1.2)}
-    27%  {transform: rotate(90deg);}
-    56%  {transform: rotate(180deg);}
-    80%{transform: rotate(2700deg);}
-    100% {transform: rotate(360deg);}
-  
+    0% {
+      transform: scale(1.2);
+    }
+    27% {
+      transform: rotate(90deg);
+    }
+    56% {
+      transform: rotate(180deg);
+    }
+    80% {
+      transform: rotate(2700deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
-  
 }
 #headmain {
   padding-top: 100px;
@@ -457,47 +463,238 @@
   }
   .bodycontainer {
     padding-top: 70px;
- 
- 
+
     .experienceData {
       width: 262px;
       height: 232px;
-      &:hover  .experienceIcon img {
+      &:hover .experienceIcon img {
         transform: scale(1.2);
-        
-    }
- 
+      }
+
       .experienceIcon {
         img {
-          transition: .4s linear;
+          transition: 0.4s linear;
           transform: scale(1);
-       
+        }
       }
-     
+      p {
+        width: 262px;
+        height: 48px;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $colorblack;
+        margin: 32px 0px;
+      }
+      span {
+        width: 262px;
+        height: 72px;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: $colorGray;
+        margin: 32px 0px;
+      }
+    }
+  }
+}
+#simpleTrain {
+  padding-top: 160px;
+  .prohead {
+    display: flex;
+    p {
+      width: 100px;
+      height: 16px;
+      margin: 23px 0px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 16px;
+      color: $colorGray;
+      text-transform: uppercase;
+    }
+  }
+  .simpleText {
+    h1 {
+      width: 419px;
+      height: 112px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      color: $colorblack;
+      letter-spacing: -0.02em;
+      align-self: stretch;
+      flex-grow: 0;
     }
     p {
-      width: 262px;
+      width: 419px;
       height: 48px;
       font-family: $font-family;
       font-style: normal;
-      font-weight: 600;
+      font-weight: normal;
       font-size: 16px;
       line-height: 24px;
-      color: $colorblack;
-      margin: 32px 0px;
+      color: $colorGray;
     }
-    span {
-      width: 262px;
+  }
+}
+#SimpleData {
+  .smpdata {
+    padding-top: 100px;
+    .simpledata1 {
+      h1 {
+        width: 262px;
+        height: 24px;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: $colorblack;
+        margin: 16px 0px;
+      }
+      p {
+        width: 262px;
+        height: 72px;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: $colorGray;
+        margin: 16px 0px;
+      }
+    }
+    .imgdata {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-around;
+      .simpleImg {
+        width: 548px;
+        height: 650px;
+        background: #e6e8ec;
+        border-radius: 24px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+#MeetSimple {
+  padding-top: 130px;
+  .MeetText {
+    display: inline-block;
+    h1 {
+      width: 544px;
+      height: 56px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $colorblack;
+      margin: 20px 0px;
+      display: inline-block;
+    }
+    p {
+      width: 544px;
       height: 72px;
       font-family: $font-family;
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 24px;
+      text-align: center;
       color: $colorGray;
-      margin: 32px 0px;
+      margin: 20px 0px;
+    }
+  }
+  .dataList {
+    padding-top: 40px;
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      .dsc {
+        background-color: #454545;
+        color: white;
+        font-weight: bold;
+        width: 86px;
+        height: 34px;
+        border: 1px solid transparent;
+        line-height: 27px;
+        border-radius: 52px;
+      }
+      li {
+        width: 135px;
+        height: 34px;
+        line-height: 27px;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          text-decoration: none;
+          color: $colorGray;
+          margin-right: 13px;
+        }
+      }
+    }
+  }
+  .fitnesdata {
+    width: 156px;
+    height: 241.12px;
+    &:hover .imgbody h2 {
+      color: green;
+    }
+    img {
+      border: 1px solid transparent;
+      border-radius: 22px;
+      background: rgb(219, 219, 219);
+      max-width: 100%;
+      transition: 0.4s linear;
+      transform: scale(1);
+      filter: grayscale(0);
+      //  filter: contrast(1);
+      &:hover {
+        transform: scale(1.2);
+        filter: grayscale(1);
+        // filter: contrast(0);
+      }
+    }
+  }
+  .imgbody {
+    h2 {
+      transition: 0.3s linear;
+      padding-top: 11px;
+      display: flex;
+      font-size: 16px;
+      justify-content: center;
+      align-items: center;
+    }
+    p {
+      padding-top: 3px;
+      display: flex;
+      font-size: 13px;
+      color: $colorGray;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
-
+.fitnescontainer {
+  padding-top: 60px;
+}
+.size {
+  padding-bottom: 70px;
 }
