@@ -50,17 +50,121 @@
           align-items: center;
 }
 
+#header .FormList .featuresNav {
+  position: relative;
+}
+
+#header .FormList .featuresNav:hover .downloadNav {
+  opacity: 1;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+#header .FormList .featuresNav .downloadNav {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  opacity: 0;
+  position: absolute;
+  list-style: none;
+  background: aliceblue;
+  border-radius: 8px;
+  width: 200px;
+  height: 192px;
+  border-bottom: 5px solid;
+  top: 25px;
+  right: -75px;
+}
+
+#header .FormList .featuresNav .downloadNav li .navbars {
+  width: 200px;
+  display: -ms-grid;
+  display: grid;
+}
+
+#header .FormList .featuresNav .downloadNav li .navbars a {
+  margin-left: -20px;
+  padding: 0;
+  padding: 2px;
+  text-decoration: none;
+  color: #777E91;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  text-align: left;
+  font-weight: 400;
+}
+
+#header .FormList .featuresNav .downloadNav li .navbars a:hover {
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}
+
+#header .FormList .class {
+  position: relative;
+}
+
+#header .FormList .class:hover .ClassNav {
+  opacity: 1;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+#header .FormList .class:hover img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 #header .FormList .class img {
   -webkit-transition: 0.4s linear;
   transition: 0.4s linear;
   line-height: 13px;
   width: 13px;
   height: 13px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
-#header .FormList .class img:hover {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+#header .FormList .class .ClassNav {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  position: absolute;
+  list-style: none;
+  background: aliceblue;
+  border-radius: 8px;
+  width: 200px;
+  height: 152px;
+  opacity: 0;
+  border-bottom: 5px solid;
+  top: 27px;
+  right: -75px;
+}
+
+#header .FormList .class .ClassNav li .clasBars {
+  width: 200px;
+  display: -ms-grid;
+  display: grid;
+}
+
+#header .FormList .class .ClassNav li .clasBars a {
+  margin-left: -20px;
+  padding: 0;
+  padding: 2px;
+  text-decoration: none;
+  color: #777E91;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  text-align: left;
+  font-weight: 400;
+}
+
+#header .FormList .class .ClassNav li .clasBars a:hover {
+  font-weight: 700;
+  margin: 0;
+  color: black;
 }
 
 #header .FormList li img {
@@ -949,7 +1053,7 @@
   padding-top: 160px;
 }
 
-#countData .counters img {
+#countData .counters .counterImg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -959,6 +1063,149 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 44px;
+}
+
+#countData .counters .counts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#countData .counters .counts h1 {
+  width: 256px;
+  height: 64px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+
+#countData .counters .countText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#countData .counters .countText h2 {
+  width: 256px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+  margin: 16px 0px;
+  text-align: left;
+}
+
+#countData .counters .countbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#countData .counters .countbody p {
+  text-align: center;
+  position: static;
+  width: 256px;
+  height: 72px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777E91;
+  margin: 16px 0px;
+  display: inline-block;
+  text-align: inherit;
+}
+
+#space {
+  padding-top: 160px;
+}
+
+#space .spacehead {
+  display: inline-block;
+}
+
+#space .spacehead h1 {
+  display: inline-block;
+  position: static;
+  width: 636px;
+  height: 56px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #23262F;
+  margin: 20px 0px;
+}
+
+#space .spacehead p {
+  position: static;
+  width: 453px;
+  height: 96px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #353945;
+  margin: 12px auto;
+  text-align: initial;
+}
+
+#space .spaceContain {
+  padding-top: 70px;
+}
+
+#space .spaceContain .SpaceImg img {
+  width: 160px;
+  height: 160px;
+  background: #B1B5C4;
+  border-radius: 160px;
+}
+
+#space .spaceContain .SpaceImg h2 {
+  position: static;
+  width: 200px;
+  height: 64px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #23262f;
+  margin: 38px auto;
 }
 
 * {
