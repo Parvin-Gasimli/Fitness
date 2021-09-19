@@ -800,7 +800,7 @@
 }
 
 #MeetSimple .fitnesdata {
-  width: 156px;
+  width: 414px;
   height: 241.12px;
 }
 
@@ -813,8 +813,8 @@
   border-radius: 22px;
   background: #dbdbdb;
   max-width: 100%;
-  -webkit-transition: .4s linear;
-  transition: .4s linear;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-filter: grayscale(0);
@@ -829,8 +829,8 @@
 }
 
 #MeetSimple .imgbody h2 {
-  -webkit-transition: .3s linear;
-  transition: .3s linear;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
   padding-top: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -865,6 +865,100 @@
 
 .size {
   padding-bottom: 70px;
+}
+
+#greatdata {
+  padding-top: 100px;
+}
+
+#greatdata .data {
+  display: inline-block;
+}
+
+#greatdata .data img {
+  -webkit-filter: contrast(1);
+          filter: contrast(1);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#greatdata .data img:hover {
+  -webkit-filter: contrast(0);
+          filter: contrast(0);
+}
+
+#greatdata .data h1 {
+  padding-top: 10px;
+  width: 736px;
+  height: 144px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23262F;
+  margin: 8px 0px;
+}
+
+#greatdata hr {
+  padding-top: 0px;
+  margin-top: 75px;
+  width: 1136px;
+}
+
+#greatdata .dataUser h1 {
+  width: 55px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262F;
+  margin: 0px 4px;
+  display: contents;
+}
+
+#greatdata .dataUser p {
+  width: 189px;
+  height: 24px;
+  font-family: "Poppins", sans-serif, "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #777E91;
+  margin: 0 auto;
+}
+
+#greatdata .dataIcon {
+  padding-top: 67px;
+}
+
+#greatdata .dataIcon img {
+  width: 19px;
+  height: 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+#countData {
+  padding-top: 160px;
+}
+
+#countData .counters img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {

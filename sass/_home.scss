@@ -652,7 +652,7 @@
     }
   }
   .fitnesdata {
-    width: 156px;
+    width: 414px;
     height: 241.12px;
     &:hover .imgbody h2 {
       color: green;
@@ -697,4 +697,83 @@
 }
 .size {
   padding-bottom: 70px;
+}
+#greatdata {
+  padding-top: 100px;
+  .data {
+    display: inline-block;
+    img {
+      filter: contrast(1);
+      transition: 0.4s;
+      &:hover {
+        filter: contrast(0);
+      }
+    }
+
+    h1 {
+      padding-top: 10px;
+      width: 736px;
+      height: 144px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: $colorblack;
+      margin: 8px 0px;
+    }
+  }
+  hr {
+    padding-top: 0px;
+    margin-top: 75px;
+    width: 1136px;
+  }
+  .dataUser {
+    h1 {
+      width: 55px;
+      height: 24px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: $colorblack;
+      margin: 0px 4px;
+      display: contents;
+    }
+    p {
+      width: 189px;
+      height: 24px;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: $colorGray;
+      margin: 0 auto;
+    }
+  }
+  .dataIcon {
+    padding-top: 67px;
+    img {
+      width: 19px;
+      height: 20px;
+      margin-right: 12px;
+      cursor: pointer;
+    }
+  }
+}
+#countData{
+  padding-top: 160px;
+  .counters{
+    img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
 }
